@@ -1,0 +1,87 @@
+.table,th,td{ 
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.tablechitietsanpham thead th{
+    font-size: 15px;
+    background-color: rgb(192, 229, 217);
+    color: #0a0202;
+    
+}
+.table thead th{
+    font-size: 15px;
+    background-color: rgb(192, 229, 217);
+    color: #0a0202;
+}
+.table tbody td{
+    font-size: 17px;
+    color: #0a0202;
+}
+
+.tablelaphoadon tbody th{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.tablelaphoadon{
+   width: 100%;
+   border-collapse: collapse ;
+   border: 1px solid black;
+}
+/* Thêm khách hàng*/
+.tablethemkhachhang tbody th{
+    font-size: 15px;
+    color: #0a0202;    
+    font-weight: normal;
+}
+.tablethemkhachhang{
+    width: 100%;
+    border-collapse: collapse ;
+    border: 1px solid black;
+}
+/* thêm phiếu trả hàng*/ 
+.tablephieutrahang tbody th{
+    font-size: 15px;
+    color: #0a0202;    
+    font-weight: normal;
+}
+.tablephieutrahang{
+    width: 100%;
+    border-collapse: collapse ;
+    border: 1px solid black;
+}
+/* Nhân viên*/
+.tablesuanhanvien{
+    width: 100%;
+    border-collapse: collapse ;
+    border: 1px solid black;
+}
+.tablesuanhanvien tbody th{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 17px;
+    color: #0a0202;    
+    font-weight: normal;
+}
+/* Hóa đơn */
+.tablehoadon thead th{
+    background-color: rgb(192, 229, 217);
+
+}
+.tablehoadon thead td{
+    font-size: 15px;
+    color: #0a0202;
+}
+.tablehoadon{
+    width: 100%;
+}
+label{
+    font-weight:bold;
+}
+.column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+}
